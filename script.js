@@ -5,3 +5,4 @@ let tempo=document.getElementById("tempo");
 botaoTempo.addEventListener("click",function(){
 
 });
+console,log();
