@@ -1,8 +1,9 @@
-let elementoClicado=document.getElementById("elemento-clicado");
-let botaoTempo=document.getElementById("botao-clicado");
-let tempo=document.getElementById("tempo");
+let titulo = document.getElementById("titulo")
+let frutas = document.getElementById("frutas")
+let prozeducacao = document.getElementById("prozeducacao")
+let listaOrdenada = document.getElementById("lista-ordenada")
 
-botaoTempo.addEventListener("click",function(){
-
-});
-console,log(evento.timeStamp);
+titulo.innerText = "Angola é um país com clima tropical"
+prozeducacao.innerText = "um instituto de formação de programadores"
+frutas.innerHTML = "<li>Laranja</li> <li>limão</li>"+"<li>abacate</li>"
+frutas.innerHTML +="<li>Jaca</li>"
